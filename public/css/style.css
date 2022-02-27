@@ -1,0 +1,58 @@
+body{
+    background-color: white;
+    font-family: 'Raleway', sans-serif;
+}
+nav.navbar {
+    background-color: #000000;
+}
+
+#h1style{
+    font-size:60px;
+}
+
+.header {
+    background: url(/static/img/logocons.png) no-repeat center;
+    background-size: cover;
+    min-height: 100vh;
+    background-color: rgb(40, 40, 40);
+    background-blend-mode: soft-light;
+}
+.container{
+    text-align: center;
+}
+#buttonstyle{
+    text-align: center;
+}
+button {
+    padding: 15px 35px;
+    border: 3px solid #C7A14F;
+    position: relative;
+    overflow: hidden;
+    background-color: transparent;
+    text-align: center;
+    font-size: 17px;
+    color: #ddd;
+    transition: .3s;
+    z-index: 1;
+}  
+button::before {
+    content: '';
+    width: 0;
+    height: 300%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) rotate(45deg);
+    background: #C7A14F;
+    transition: .5s ease;
+    display: block;
+    z-index: -1;
+}
+button:hover::before {
+    width: 105%;
+}
+   
+button:hover {
+    color: #111;
+
+}
