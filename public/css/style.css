@@ -40,7 +40,7 @@ nav.navbar {
 #propimg{
     background: url(/static/img/registro.jpg) no-repeat center;
     background-size: cover;
-    min-height: 100vh;
+    min-height: 118vh;
     background-color: rgb(40, 40, 40);
     background-blend-mode: soft-light;
 }
