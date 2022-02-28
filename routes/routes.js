@@ -10,7 +10,7 @@ router.get("/", (req, resp) => {
 
 router.get("/register", (req, resp) => {
     // resp.render("home");
-    console.log('Funciona el registro');
+    resp.render("register");
 });
 
 router.get("/login", (req, resp) => {
@@ -18,12 +18,19 @@ router.get("/login", (req, resp) => {
     console.log('Funciona el login');
 });
 
-
 router.get("/dashboard", (req, resp) => {
     // resp.render("home");
     console.log('Funciona el dashboard');
 });
 
+router.get("/ayuda", (req, resp) => {
+    // resp.render("home");
+    console.log('Funciona la ayuda');
+});
+
+router.get("/acerca", (req, resp) => {
+    // resp.render("home");
+    console.log('Funciona el acerca');
+});
 
 module.exports = router;
-

@@ -1,1 +1,66 @@
-esta es la pagina de registro
+<head>
+    <link rel="stylesheet" href="/static/css/style.css">
+    <title>Formulario Registro</title>
+</head>
+<br> <br>
+<form action="/auth/register" method="POST">
+    <div class="container contact">
+	    <div class="row">
+		    <div class="col-md-3">
+			    <div class="contact-info">
+                    <div id="propimg">
+                    </div>
+                    <div class="centrado"><h2 id="h2style"><b>Registro</b></h2></div>
+			    </div>
+		    </div>
+            <div class="col-md-9">
+			    <div class="contact-form">
+                    <h4 id="h4style"><b>Datos Generales</b></h4>
+                    <br>
+                    <div class="form-group">
+				        <div class="col-sm-10">
+                            <p id="labelstyle"><b>Nombres:</b></p>          
+					        <input type="text" class="form-control" placeholder="Ingresar Nombre(s)" name="names">
+				        </div>
+				    </div>
+                    <div class="form-group">
+				        <div class="col-sm-10">
+                            <p id="labelstyle"><b>Apellidos:</b></p>          
+					        <input type="text" class="form-control" placeholder="Ingresar Apellido(s)" name="apellidos">
+				        </div>
+				    </div>
+                    <div class="form-group">
+				        <div class="col-sm-10">
+                            <p id="labelstyle"><b>Edad:</b></p>          
+					        <input type="text" class="form-control" placeholder="Ingresar Edad" name="edad">
+				        </div>
+				    </div>
+                    <div class="form-group">
+				        <div class="col-sm-10">
+                            <p id="labelstyle"><b>E-mail:</b></p>          
+					        <input type="text" class="form-control" placeholder="Ingresar E-mail" name="email">
+				        </div>
+				    </div>
+                    <div class="form-group">
+				        <div class="col-sm-10">
+                            <p id="labelstyle"><b>Puesto:</b></p>          
+					        <input type="text" class="form-control" placeholder="Ingresar Puesto" name="puesto">
+				        </div>
+				    </div>
+                    <br>
+                    <h4 id="h4style"><b>Datos de la Empresa</b></h4>
+                    <div class="form-group">
+				        <div class="col-sm-10">
+                            <p id="labelstyle"><b>Nombres:</b></p>          
+					        <input type="text" class="form-control" placeholder="Ingresar Nombre de la Empresa" name="namee">
+				        </div>
+				    </div>
+                </div>
+                <br>
+                <div id="buttonstyle2">
+                    <button type="submit">Registrarse</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</form>
