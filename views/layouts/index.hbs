@@ -1,61 +1,67 @@
 <!DOCTYPE html>
 <html>
-    <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Conservance</title>
 
-     {{!-- <link href="/static/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
-    <script src="/static/js/jquery.min.js"></script>
-    <script src="/static/js/bootstrap.min.js"></script> --}}
-    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@100;300&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-    <script src="https://kit.fontawesome.com/d303dfb119.js" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="fonts/material-icon/css/material-design-iconic-font.min.css">
-    <link rel="stylesheet" href="/static/css/style.css">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Conservance</title>
 
-    </head>
-    <body>
-         <!-- HEADER CONTENT HERE -->
-    <header class="header">
-        <nav class="navbar navbar-expand-sm fixed-top">
-            <a class="navbar-brand" href="#">
-              <img src="/static/img/logocons.png" width="30" height="30" class="d-inline-block align-top" alt="">
-              <b>Conservance</b>
-            </a>
-            <!-- Links -->
-            <ul class="navbar-nav ml-auto">
-              <li class="nav-item">
-                <a class="nav-link" href="/"><b>Home </b><i class="fas fa-home" ></i>&nbsp;&nbsp;&nbsp;</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="/login"><b>Iniciar Sesión</b> <i class="fas fa-sign-in-alt"></i>&nbsp;&nbsp;&nbsp;</a>  
-              </li>
-               <li class="nav-item">
-                <a class="nav-link" href="/ayuda"><b>Ayuda</b> <i class="fas fa-sign-out-alt"></i>&nbsp;&nbsp;&nbsp;</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="/acerca"><b>Acerca de</b> <i class="fas fa-circle-question-alt"></i></a>
-              </li>
-            </ul>
-        </nav>
-        <br> <br> <br> <br> <br> <br> <br> <br>
-        <div class="container p-3 my-3 text-white">
-            <h1 id="h1style"><b>Conservance</b></h1>
-            <h3>Donde ocurre la magia del conocimiento</h3>
-        </div>
-        <br> <br> <br> <br> <br> <br> <br> <br> <br>
-        <div id="buttonstyle">
-          <button onclick="window.location.href='/register'">Comenzar</button>
-        </div>
-    </header>
-    {{!-- Esta seccion es dinamica  --}}
-    {{{body}}}
+  {{!--
+  <link href="/static/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+  <script src="/static/js/jquery.min.js"></script>
+  <script src="/static/js/bootstrap.min.js"></script> --}}
+  <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@100;300&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://kit.fontawesome.com/d303dfb119.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="fonts/material-icon/css/material-design-iconic-font.min.css">
+  <link rel="stylesheet" href="/static/css/style.css">
+ 
 
-            <!-- Footer o pie de pagina-->
+</head>
 
-    </body>
+<body>
+  <!-- HEADER CONTENT HERE -->
+  <header class="header">
+    <nav class="navbar navbar-expand-sm fixed-top">
+      <a class="navbar-brand" href="#">
+        <img src="/static/img/logocons.png" width="30" height="30" class="d-inline-block align-top" alt="">
+        <b>Conservance</b>
+      </a>
+      <!-- Links -->
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item">
+          <a class="nav-link" href="/"><b>Home </b><i class="fas fa-home"></i>&nbsp;&nbsp;&nbsp;</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="/login"><b>Iniciar Sesión</b> <i
+              class="fas fa-sign-in-alt"></i>&nbsp;&nbsp;&nbsp;</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="/ayuda"><b>Ayuda</b> <i class="fas fa-sign-out-alt"></i>&nbsp;&nbsp;&nbsp;</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="/acerca"><b>Acerca de</b> <i class="fas fa-circle-question-alt"></i></a>
+        </li>
+      </ul>
+    </nav>
+    <br> <br> <br> <br> <br> <br> <br> <br>
+    <div class="container p-3 my-3 text-white">
+      <h1 id="h1style"><b>Conservance</b></h1>
+      <h3>Donde ocurre la magia del conocimiento</h3>
+    </div>
+    <br> <br> <br> <br> <br> <br> <br> <br> <br>
+    <div id="buttonstyle">
+      <button onclick="window.location.href='/register'">Comenzar</button>
+    </div>
+  </header>
+  {{!-- Esta seccion es dinamica --}}
+  {{{body}}}
+
+  <!-- Footer o pie de pagina-->
+
+</body>
+
 </html>

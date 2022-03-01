@@ -1,9 +1,10 @@
 <head>
     <link rel="stylesheet" href="/static/css/style.css">
+     <script type="text/javascript" src="/validations.js"></script>
     <title>Formulario Registro</title>
 </head>
 <br> <br>
-<form action="/auth/register" method="POST">
+<form action="/auth/register" method="POST" onsubmit="return validarForm(this)">
     <div class="container contact">
 	    <div class="row">
 		    <div class="col-md-3">
